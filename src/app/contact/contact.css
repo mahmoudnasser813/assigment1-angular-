@@ -1,0 +1,38 @@
+.ff i {
+  position: relative;
+  color: #2c3e50; 
+  z-index: 99999;
+}
+.ff i::before {
+  z-index: -1; }
+
+
+
+.ff i::after {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 4px;
+  background-color: #2c3e50;
+  position: absolute;
+  top: 48%;
+  left: 100%; 
+  margin-left: 8px;
+}
+.ff h2::before {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 4px;
+  background-color: #2c3e50;
+  position: absolute;
+  top: 112px;
+  left: 470px;
+
+  margin-left: 8px;
+  
+}
+h2{
+  font-size: 48px;
+  color: #2c3e50;
+}
